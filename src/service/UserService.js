@@ -1,6 +1,6 @@
 import axios  from 'axios';
 
-const DATA_TRACKER_API_URL= 'http://covidtestapp1-env.eba-mn6ba3au.us-east-1.elasticbeanstalk.com/api/v1';
+const DATA_TRACKER_API_URL= 'http://covid-env.eba-mxtgmzy4.us-east-1.elasticbeanstalk.com/api/v1/state';
 
 
 export const  UserService = async () =>{

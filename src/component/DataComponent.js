@@ -26,7 +26,7 @@ const DataComponent = () => {
   }
   console.log("state is ---->  "+states);
   return (
-    <div>
+    <div className='center'>
          <select onChange={(e) => handleStateChange(e.target.value)}>
          <option disabled selected="true" defaultValue="" >Select</option>
                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
